@@ -1,0 +1,21 @@
+{
+  "name": "@loopholelabs/scale-extension-interfaces",
+  "version": "0.1.0",
+  "description": "The Scale Extension Interfaces for generating host and guest extensions across multiple languages",
+  "homepage": "https://scale.sh",
+  "repository": "https://github.com/loopholelabs/scale-extension-interfaces",
+  "source": "index.ts",
+  "types": "index.d.ts",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "rm -rf dist && tsc --outDir dist && cp package.json dist",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2"
+  }
+}
