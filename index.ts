@@ -14,8 +14,14 @@
 	limitations under the License.
 */
 
-// TODO: Implementation specfic bits here for InstallableFunc. May differ from go.
+export interface ModuleMemory {
+	Write(offset:number, v:Uint8Array): void
+	Read(offset:number, byteCount:number): Uint8Array
+}
 
+export type Resizer = (name:string, size:number) => number
+
+export type InstallableFunc = (mem: ModuleMemory, resize: Resizer, params: number[]) => void
 
 // Extension is an interface that must be implemented by all Scale Extensions
 // for use with the Host. Guest implementations do not use this interface.
