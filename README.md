@@ -17,6 +17,6 @@ the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 [![https://loopholelabs.io][loopholelabs]](https://loopholelabs.io)
 
-[gitrepo]: https://github.com/loopholelabs/scale-extension
+[gitrepo]: https://github.com/loopholelabs/scale-extension-interfaces
 [loopholelabs]: https://cdn.loopholelabs.io/loopholelabs/LoopholeLabsLogo.svg
 [loophomepage]: https://loopholelabs.io
