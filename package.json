@@ -1,6 +1,6 @@
 {
   "name": "@loopholelabs/scale-extension-interfaces",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "The Scale Extension Interfaces for generating host and guest extensions across multiple languages",
   "homepage": "https://scale.sh",
   "repository": "https://github.com/loopholelabs/scale-extension-interfaces",
